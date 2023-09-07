@@ -22,11 +22,11 @@ import time
 import numpy as np
 import scipy.sparse as sp
 import tensorflow as tf
-from tensorflow.python.keras import backend as K
-from tensorflow.python.keras.callbacks import History
-from tensorflow.python.keras.layers import Dense, Input
-from tensorflow.python.keras.models import Model
-from tensorflow.python.keras.regularizers import l1_l2
+from tensorflow.keras import backend as K
+from tensorflow.keras.callbacks import History
+from tensorflow.keras.layers import Dense, Input
+from tensorflow.keras.models import Model
+from tensorflow.keras.regularizers import l1_l2
 
 from ..utils import preprocess_nxgraph
 
